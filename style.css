@@ -1,0 +1,10 @@
+* { margin:0px; padding: 0px;}
+.table ul li {background-color: red;  width: 100%;}
+.table>ul>li {background-color: yellow;  width: 100%;}
+.table p~a,.table ul>p {background-color: red;  width: 100%;}
+
+.aaa a {background-color: grey;  width: 100%;}
+
+.table ul~li {background-color: red;  width: 100%;}
+
+.aaa a[href^="rw"] {background-color: green;}
